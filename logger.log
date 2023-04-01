@@ -1,0 +1,96 @@
+INFO:create_bot:Starting bot
+INFO:create_bot:Starting bot
+INFO:create_bot:Starting bot
+INFO:create_bot:Try connect
+INFO:create_bot:Starting bot
+INFO:create_bot:Try connect
+INFO:create_bot:connected
+INFO:create_bot:In cursor
+INFO:create_bot:Starting bot
+INFO:apscheduler.scheduler:Scheduler started
+INFO:create_bot:Starting bot
+INFO:apscheduler.scheduler:Scheduler started
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:create_bot:Starting bot
+INFO:apscheduler.scheduler:Scheduler started
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:create_bot:Starting bot
+INFO:apscheduler.scheduler:Scheduler started
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.event:Update id=47052380 is not handled. Duration 0 ms by bot id=5921117513
+INFO:aiogram.event:Update id=47052381 is not handled. Duration 0 ms by bot id=5921117513
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:create_bot:Starting bot
+INFO:apscheduler.scheduler:Scheduler started
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.event:Update id=47052382 is handled. Duration 1 ms by bot id=5921117513
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:create_bot:Starting bot
+INFO:apscheduler.scheduler:Scheduler started
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.event:Update id=47052383 is handled. Duration 1 ms by bot id=5921117513
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:create_bot:Starting bot
+INFO:apscheduler.scheduler:Scheduler started
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:create_bot:Starting bot
+INFO:apscheduler.scheduler:Scheduler started
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.event:Update id=47052386 is not handled. Duration 1 ms by bot id=5921117513
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:create_bot:Starting bot
+INFO:apscheduler.scheduler:Scheduler started
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.event:Update id=47052388 is handled. Duration 1 ms by bot id=5921117513
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:create_bot:Starting bot
+INFO:apscheduler.scheduler:Scheduler started
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:create_bot:Starting bot
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.event:Update id=47052395 is handled. Duration 1 ms by bot id=5921117513
+INFO:aiogram.event:Update id=47052396 is handled. Duration 1 ms by bot id=5921117513
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:create_bot:Starting bot
+INFO:apscheduler.scheduler:Scheduler started
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.event:Update id=47052397 is handled. Duration 1 ms by bot id=5921117513
+INFO:aiogram.event:Update id=47052398 is handled. Duration 0 ms by bot id=5921117513
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @twopercent_4_testbot id=5921117513 - 'twopercent_4_testbot'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:apscheduler.scheduler:Scheduler has been shut down
