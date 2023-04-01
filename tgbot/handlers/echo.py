@@ -12,5 +12,6 @@ async def get_id(message: types.Message):
     chat_id = message.chat.id
     user_id = message.from_user.id
     text = f'user_id: {user_id} || chat_id: {chat_id}'
+    print(text)
     await message.answer(text)
 

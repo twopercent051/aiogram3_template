@@ -12,7 +12,7 @@ config = load_config(".env")
 r = redis.Redis(host=config.rds.host, port=config.rds.port, db=config.rds.db)
 storage = RedisStorage(redis=r) if config.tg_bot.use_redis else MemoryStorage()
 bot = Bot(token=config.tg_bot.token, parse_mode='HTML')
-dp = Dispatcher(storage=storage)
+dp = Dispatcher()
 scheduler = AsyncIOScheduler()
 
 logger = logging.getLogger(__name__)

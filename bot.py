@@ -1,6 +1,7 @@
 import asyncio
 
-from tgbot.handlers import admin, user, echo
+# from tgbot.handlers import admin, user, echo
+from tgbot.handlers.echo import router
 # from tgbot.filters.admin import AdminFilter
 # from tgbot.handlers.admin import register_admin
 # from tgbot.handlers.user import register_user
@@ -39,7 +40,8 @@ async def main():
     scheduler_jobs()
     # await sql_start()
     # redis_start()
-    dp.include_routers(admin.router, user.router, echo.router)
+    # dp.include_routers(admin.router, user.router, echo.router)
+    dp.include_router(router)
 
     # start
     try:
