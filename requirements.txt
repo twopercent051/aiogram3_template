@@ -1,6 +1,5 @@
 aiogram==3.0.0b7
 aiohttp==3.8.4
-aiomysql==0.1.1
 aioredis==2.0.1
 aiosignal==1.2.0
 APScheduler==3.9.1
@@ -15,7 +14,6 @@ idna==3.4
 marshmallow==3.18.0
 multidict==6.0.2
 packaging==21.3
-PyMySQL==1.0.2
 pyparsing==3.0.9
 python-dotenv==0.21.0
 pytz==2022.5

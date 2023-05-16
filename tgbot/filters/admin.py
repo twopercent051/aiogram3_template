@@ -1,17 +1,11 @@
-import typing
-
 from aiogram.filters import BaseFilter
+from aiogram.types import Message
+
 from tgbot.config import Config
 
 
 class AdminFilter(BaseFilter):
-    key = 'is_admin'
+    is_admin: bool = True
 
-    def __init__(self, is_admin: typing.Optional[bool] = None):
-        self.is_admin = is_admin
-
-    async def __call__(self, obj):
-        if self.is_admin is None:
-            return False
-        config: Config = obj.bot.get('config')
-        return (obj.from_user.id in config.tg_bot.admin_ids) == self.is_admin
+    async def __call__(self, obj: Message, config: Config) -> bool:
+        return (str(obj.chat.id) == config.misc.admin_group) == self.is_admin
