@@ -5,8 +5,8 @@ from aiogram import F, Router
 from aiogram.filters.state import StateFilter
 
 from create_bot import bot
-from tgbot.filters.admin import AdminFilter
-from tgbot.keyboards.inline import InlineKeyboard as inline_kb
+from .filters import AdminFilter
+from .inline import InlineKeyboard
 from tgbot.misc.states import AdminFSM
 from tgbot.models.redis_connector import RedisConnector as rds
 

@@ -3,7 +3,6 @@ from aiogram.types import Message
 
 from tgbot.config import Config
 
-
 class AdminFilter(BaseFilter):
     is_admin: bool = True
 

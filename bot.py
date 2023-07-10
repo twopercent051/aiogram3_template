@@ -1,19 +1,33 @@
 import asyncio
 
-from tgbot.handlers.admin import router as admin_router
-from tgbot.handlers.user import router as user_router
 from tgbot.handlers.echo import router as echo_router
+from tgbot.handlers.admin.main_block import router as admin_main_block
+from tgbot.handlers.user.main_block import router as user_main_block
 from tgbot.misc.scheduler import scheduler_jobs
 from tgbot.models.redis_connector import RedisConnector as rds
 
 from create_bot import bot, dp, scheduler, logger, register_global_middlewares, config
 
 
+admin_router = [
+    admin_main_block,
+]
+
+
+user_router = [
+    user_main_block,
+]
+
+
 async def main():
     logger.info("Starting bot")
     scheduler_jobs()
     rds.redis_start()
-    dp.include_routers(admin_router, user_router, echo_router)
+    dp.include_routers(
+        *admin_router,
+        *user_router,
+        echo_router
+    )
 
     try:
         scheduler.start()
